@@ -52,7 +52,7 @@ public class StudentRetrieveController {
 	}
 	
 	
-	@RequestMapping(method = RequestMethod.GET, value="/embarcaciones/cuit")
+	@RequestMapping(method = RequestMethod.GET, value="/")
 	@ResponseBody
 	
 	public DeudaCuit getEmbarcaciones() {
